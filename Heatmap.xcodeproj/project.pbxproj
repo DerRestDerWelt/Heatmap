@@ -16,6 +16,7 @@
 		6BAA9407151B622000CDF4A2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BAA9405151B622000CDF4A2 /* MainWindow.xib */; };
 		6BAA940A151B622000CDF4A2 /* HeatmapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAA9409151B622000CDF4A2 /* HeatmapViewController.m */; };
 		6BAA940D151B622000CDF4A2 /* HeatmapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BAA940B151B622000CDF4A2 /* HeatmapViewController.xib */; };
+		6BBE1FC2151CD382008C5EB5 /* Heatmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE1FC1151CD382008C5EB5 /* Heatmap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		6BAA93F3151B622000CDF4A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6BAA93F5151B622000CDF4A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6BAA93F7151B622000CDF4A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6BAA93FB151B622000CDF4A2 /* Heatmap-Info.plist */ = {isa = PBXFileReference; path = "Heatmap-Info.plist"; sourceTree = "<group>"; };
+		6BAA93FB151B622000CDF4A2 /* Heatmap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Heatmap-Info.plist"; sourceTree = "<group>"; };
 		6BAA93FD151B622000CDF4A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6BAA93FF151B622000CDF4A2 /* Heatmap-Prefix.pch */ = {isa = PBXFileReference; path = "Heatmap-Prefix.pch"; sourceTree = "<group>"; };
+		6BAA93FF151B622000CDF4A2 /* Heatmap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Heatmap-Prefix.pch"; sourceTree = "<group>"; };
 		6BAA9400151B622000CDF4A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6BAA9402151B622000CDF4A2 /* HeatmapAppDelegate.h */ = {isa = PBXFileReference; path = HeatmapAppDelegate.h; sourceTree = "<group>"; };
+		6BAA9402151B622000CDF4A2 /* HeatmapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeatmapAppDelegate.h; sourceTree = "<group>"; };
 		6BAA9403151B622000CDF4A2 /* HeatmapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeatmapAppDelegate.m; sourceTree = "<group>"; };
 		6BAA9406151B622000CDF4A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		6BAA9408151B622000CDF4A2 /* HeatmapViewController.h */ = {isa = PBXFileReference; path = HeatmapViewController.h; sourceTree = "<group>"; };
+		6BAA9408151B622000CDF4A2 /* HeatmapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeatmapViewController.h; sourceTree = "<group>"; };
 		6BAA9409151B622000CDF4A2 /* HeatmapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeatmapViewController.m; sourceTree = "<group>"; };
 		6BAA940C151B622000CDF4A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HeatmapViewController.xib; sourceTree = "<group>"; };
+		6BBE1FC0151CD382008C5EB5 /* Heatmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heatmap.h; sourceTree = "<group>"; };
+		6BBE1FC1151CD382008C5EB5 /* Heatmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heatmap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				6BAA9408151B622000CDF4A2 /* HeatmapViewController.h */,
 				6BAA9409151B622000CDF4A2 /* HeatmapViewController.m */,
 				6BAA940B151B622000CDF4A2 /* HeatmapViewController.xib */,
+				6BBE1FC0151CD382008C5EB5 /* Heatmap.h */,
+				6BBE1FC1151CD382008C5EB5 /* Heatmap.m */,
 				6BAA93FA151B622000CDF4A2 /* Supporting Files */,
 			);
 			path = Heatmap;
@@ -164,6 +169,7 @@
 				6BAA9401151B622000CDF4A2 /* main.m in Sources */,
 				6BAA9404151B622000CDF4A2 /* HeatmapAppDelegate.m in Sources */,
 				6BAA940A151B622000CDF4A2 /* HeatmapViewController.m in Sources */,
+				6BBE1FC2151CD382008C5EB5 /* Heatmap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +284,7 @@
 				6BAA9412151B622000CDF4A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
